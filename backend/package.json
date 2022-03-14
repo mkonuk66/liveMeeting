@@ -1,0 +1,29 @@
+{
+  "name": "live-meeting",
+  "version": "1.0.0",
+  "description": "live-meeting",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^5.5.7",
+    "morgan": "^1.8.1",
+    "multer": "^1.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "live-meeting"
+  ],
+  "author": "mEmin",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
