@@ -62,7 +62,12 @@ export default class LoginPage extends Component {
           alert("Kayıt Başarılı. Lütfen Giriş Yapınız.")
         )
       )
-      .catch((err) => console.log("Hata: " + err));
+      .catch(
+        (err) => (
+          window.open("/", "_self"),
+          alert("Kayıt oluşturulurken hata oluştu. Lütfen yeniden deneyiniz!")
+        )
+      );
   };
   render() {
     return (

@@ -8,6 +8,7 @@ const UserSchema = new Schema({
   username: {
     type: String,
     required: "Boş Bırakılamaz",
+    unique: true,
   },
   password: {
     type: String,

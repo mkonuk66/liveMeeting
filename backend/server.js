@@ -20,8 +20,8 @@ app.use((err, req, res, next) => {
   res.status(res.status).send({ Hata: err });
 });
 
-// app.listen(projectConfig.coreConfig.port, () => {
-//   console.log(
-//     `${projectConfig.coreConfig.port} numaralı porttan dinleme başladı.`
-//   );
-// });
+app.listen(projectConfig.coreConfig.port, () => {
+  console.log(
+    `${projectConfig.coreConfig.port} numaralı porttan dinleme başladı.`
+  );
+});
